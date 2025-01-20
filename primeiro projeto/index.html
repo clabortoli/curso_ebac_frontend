@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>action geek</title>
+    <title>Action Geek</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -13,16 +16,16 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#">Sobre A Loja</a>
+                    <a href="#about">Sobre A Loja</a>
                 </li>
                 <li>
-                    <a href="#">Contato</a>
+                    <a href="#contact">Contato</a>
                 </li>
             </ul>
         </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="conteiner">
             <img class="store-front" src="./images/loja.jpg" alt="fachada da loja action geek"  />
             <div>
@@ -40,5 +43,54 @@
             </div>
         </div>
     </section>
+    <section id="contact">
+        <div class="conteiner">
+            <h2> conntato </h2>
+            <Div class="contact-methods">
+                <div>
+                    <h3> fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Nome" required>
+                        <input type="email" placeholder="Email"required>
+                        <textarea placeholder="Sua Mensagem" required ></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3> Nos acompanhe </h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="siganos no instagram">
+                                <img src="./images/instagram.png" alt="instagram">
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="#" title="siganos no facebook">
+                                <img src="./images/facebook.png" alt="facebook">
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="#" title="visite nosso canal do youtube">
+                                <img src="./images/youtube.png" alt="youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3> Venha Até nós</h3>
+                    <p>
+                        Na rua dos bobos, número 0
+                    </p>
+                </div>
+            </Div>
+        
+        </div>
+    </section>
+    <footer>
+        <div class="conteiner">
+            <p> &copy; 2021 Action Geek</p>
+        </div>
 </body>
 </html>
