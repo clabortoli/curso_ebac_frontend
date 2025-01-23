@@ -1,0 +1,27 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,
+section h2
+section h3 {
+    font-family: 'bungee', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea, button {
+    font-family: 'roboto', sans-serif;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #8e2f9b;
+    color: #8076a5;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18;
+}
